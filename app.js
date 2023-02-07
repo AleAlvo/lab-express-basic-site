@@ -7,8 +7,6 @@ app.use(express.static('public'));
 
 //----------
 
-
-
 app.get('/about', (request, response) => {
     response.sendFile(__dirname + '/views/about.html')
 })
